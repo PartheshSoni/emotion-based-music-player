@@ -1,10 +1,6 @@
-#!/usr/bin/env python3
-    # -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 29 15:50:13 2018
 
-@author: AmeeYash
-"""
+
+
 import cv2
 import argparse
 import time
@@ -137,5 +133,6 @@ eel.start('main.html')#//WD_INNOVATIVE//main.html')
 #, options)
 
 
-
+'''van Gent, P. (2016). Emotion Recognition With Python, OpenCV and a Face Dataset. A tech blog about fun things with Python and embedded electronics. Retrieved from: http://www.paulvangent.com/2016/06/30/making-an-emotion-aware-music-player/
+'''
 
