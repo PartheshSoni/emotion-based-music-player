@@ -1,0 +1,149 @@
+/*#second{
+		padding: 20px;
+		width: 97.1%;
+		height: 80%; 
+		float: left;
+		margin-top: 90px;
+		}
+
+		button{
+			background-image: url("E:\\Imagere\\2.jpg");
+			background-size: cover;
+			height: 200px;
+			width: 200px;
+			padding: 20px;
+			margin: 5px;
+			border: solid;
+			border-top-left-radius: 10%;
+			border-top-right-radius: 10%;
+			border-bottom-left-radius: 10%;
+			border-bottom-right-radius: 10%;
+			border-color: transparent;
+			transition: width 2s;
+		}
+		button:hover{
+			border-top-left-radius: 10%;
+			border-top-right-radius: 10%;
+			border-bottom-left-radius: 10%;
+			border-bottom-right-radius: 10%;
+			border-color: green;
+			width: 400px;
+		}
+
+		button:focus{
+			outline: 0;
+			border-top-left-radius: 10%;
+			border-top-right-radius: 10%;
+			border-bottom-left-radius: 10%;
+			border-bottom-right-radius: 10%;
+			border-color: blue;
+		}*/
+body{
+	padding: 0px;
+	background-image: url("background.jpg");
+	background-attachment: fixed;
+	height:100%;
+}
+	.song{
+		margin: 25px;
+		float: left;
+		width: 194px;
+		height: 200px;
+		transition: width 1s;
+		background-color: rgba(1, 3, 5,0.8);
+		padding: 15px;
+		border-bottom-right-radius: 10%;
+		border-top-left-radius: 10%;
+		border-bottom-left-radius: 10%;
+		border-top-right-radius: 10%;
+		 word-wrap: break-word;
+		 overflow: hidden;
+		 z-index: 2;
+		
+	}
+	.song:hover{
+		width: 400px;
+	}
+	#data{
+		color: white;
+		float: left;
+		width: 160px;
+		height: 200px;
+		margin-top: 0px;
+		padding-top: 0px;
+		padding-left: 30px;	
+		z-index: 2;
+		font-size: 16px;
+		font-family: "Monotype Corsiva Italic";
+
+	}
+	#pic{
+		float: left;
+		background-image: url("E:\\Imagere\\2.jpg");
+			background-size: cover;
+			height: 200px;
+			width: 190px;
+			border-bottom-right-radius: 10%;
+			border-top-left-radius: 10%;
+			border-bottom-left-radius: 10%;
+			border-top-right-radius: 10%;
+			z-index: 2;
+	}
+.play{
+		border-color: rgba(1,1,1,0.5);
+		background:transparent url("play.png");
+		mix-blend-mode: multiply;
+		background-size: cover;
+		border-bottom-left-radius: 50%;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		border-top-right-radius: 50%;
+		height: 50px;
+		width: 50px;
+		margin-left: 16%;
+		margin-top: 55%;
+		z-index: 2;
+	}
+	.play:focus{
+		outline: none;
+	}
+	.play:hover{
+		box-shadow: 0px 0px 5px 5px black;
+		border-color: black;
+		background-color: rgba(1,1,1);
+		border-bottom-left-radius: 50%;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		border-top-right-radius: 50%;
+		z-index: 2;
+		
+	}
+
+	.add{
+		border-color: rgba(1,1,1,0.5);
+		background:transparent url("add.png");
+		mix-blend-mode: multiply;
+		background-size: cover;
+		border-bottom-left-radius: 50%;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		border-top-right-radius: 50%;
+		height: 50px;
+		width: 50px;
+		margin-left: 13%;
+		margin-top: 55%;
+		z-index: 2;
+	}
+	.add:focus{
+		outline: none;
+	}
+	.add:hover{
+		box-shadow: 0px 0px 5px 5px black;
+		border-color: black;
+		background-color: rgb(1,1,1);
+		border-bottom-left-radius: 50%;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		border-top-right-radius: 50%;
+		
+	}

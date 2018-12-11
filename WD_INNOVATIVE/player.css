@@ -1,0 +1,49 @@
+#third{
+			width: 100%;
+			height: 80px;
+			padding: 20px;
+			padding-bottom: 0px;
+			padding-top: 10px;
+			float: left;
+			position: fixed;
+			bottom: 0;
+			left:0;
+			background-color: rgba(1,1,1,0.8);
+			color:rgb(250,250,250);
+			font-family: "Segoe Script";
+		}
+		 #mod{
+			display: inline;
+			position: absolute;
+			right: 50px;
+		}
+audio{
+		position: fixed;
+		margin-top: 28px;
+		right: 20px;
+		width: 90%;
+		}
+label{
+
+	font-family: "Segoe Script";
+	width: 500px;
+	height: 10px;
+}
+#emoji{
+	width: 75px;
+	height: 75px;
+	display: inline-grid;
+	border-color: rgba(1,1,1,0.5);
+	background:transparent url("next.png");
+	/*mix-blend-mode: multiply;*/
+	background-size: cover;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+}
+#xyz{
+			display: inline;
+			position: absolute;
+			
+		}

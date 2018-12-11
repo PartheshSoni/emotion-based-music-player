@@ -1,0 +1,57 @@
+#first{
+	width: 97.1%;
+	height: 50px;
+	background-color: rgba(44, 62, 80,.8);
+	position: fixed;
+	padding: 20px;
+	top: 0;
+	margin-left: 0;
+	}
+#queue{
+	color: white;
+	font-size: 20px;
+	font-family: "Segoe Script";
+	margin-right: 0px;
+	margin-top: 27px;
+	margin-left: 1100px;
+	width: 230px;
+	height: 600px;
+	background-color: rgba(1,1,1,0.9);
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: absolute;
+	z-index: -1;
+	overflow: hidden;
+}
+
+#next{
+		border-color: rgba(1,1,1,0.5);
+		background:transparent url("next.png");
+		/*mix-blend-mode: multiply;*/
+		background-size: cover;
+		border-bottom-left-radius: 50%;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		border-top-right-radius: 50%;
+		height: 40px;
+		width: 40px;
+		margin-left: 20px;
+		margin-top: 0px;
+		z-index: 2;
+	}
+	#next:focus{
+		outline: none;
+	}
+	#next:hover{
+		box-shadow: 0px 0px 5px 5px white;
+		border-color: black;
+		background-color: rgba(1,1,1);
+		border-bottom-left-radius: 50%;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		border-top-right-radius: 50%;
+		z-index: 2;
+		
+	}
